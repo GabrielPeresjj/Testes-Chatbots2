@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teste de Chatbot</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Chatbot</title>
 </head>
 
 <body style="height:100vh; margin:0">
-      <div style="width: 100%;height: 100%; "id="sdk"">
-  <script src="https://websdk.nyc3.cdn.digitaloceanspaces.com/sdk.js"></script>
-  <script>
-websdk.init('vSGk2oaksiyX2vkNSo9QhU4rClegeTrj', 'sdk', ()=>{
-       setTimeout(() => {
-               websdk.initFlow('0a29dbe3-eed6-4d08-b4d7-3efebb2f6df7', {})
-      },1000)
-    }
-  </script>
-  </div>
+    <div style="width: 100%;height: 100%; " id="sdk">
+  <script src=" https://websdk.nyc3.cdn.digitaloceanspaces.com/sdk.js">
+</script>
+        <script>
+            websdk.init('vSGk2oaksiyX2vkNSo9QhU4rClegeTrj', 'sdk', () => {
+                setTimeout(() => {
+                    websdk.initFlow('0a29dbe3-eed6-4d08-b4d7-3efebb2f6df7', {})
+                }, 1000)
+            })
+        </script>
+    </div>
 </body>
 
 </html>
